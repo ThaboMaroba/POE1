@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.enter;
+package com.mycompany.PART2;
 
 /**
  *
@@ -50,9 +50,45 @@ public boolean checkDescription() {
     public int returnTotalHours() {
         return taskDuration;
     }
-
+    public String getdeveloperLastName(){
+     return developerLastName;   
+    }
     public void setTaskStatus(String taskStatus) {
         this.taskStatus = taskStatus;
+    }
+    
+    public String getTaskName(){
+     return taskName;   
+    }
+    
+    public String getTaskDescription(){
+     return taskDescription;   
+    }
+    
+    public String getDeveloperFirstName(){
+     return developerFirstName;   
+    }
+     
+    public int getTaskDuration(){
+        return taskNumber;
+    }
+    public int getTaskNumber(){
+        return taskNumber;
+    }
+    public String getTaskID(){
+        return taskID;
+    }
+    public String getTaskUser(){
+        return taskUser;
+    }
+    public String getTaskStatus(){
+        return taskStatus;
+    }
+    public String getDeveloperFullName(){
+        return developerFirstName+ " " + developerLastName;
+    }
+    public int gettaskDuration(){
+        return taskDuration;
     }
 }   
  
